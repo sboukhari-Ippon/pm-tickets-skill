@@ -1,8 +1,8 @@
 ---
 name: pm-tickets
-description: Transforme une idée, un besoin métier ou un retour utilisateur en ticket Jira synthétique en français (user story, critères d'acceptation, logigramme fonctionnel), validé par la personne puis créé dans son projet Jira. À utiliser dès qu'une personne veut rédiger, cadrer ou créer une story, un bug ou une tâche Jira, même sans le mot « ticket » (« j'ai un besoin », « il faudrait que les clients puissent… »). Ne pas utiliser pour modifier, déplacer ou supprimer un ticket existant, ni pour gérer un sprint.
+description: Transforme une idée, un besoin métier ou un retour utilisateur en ticket Jira synthétique (user story, critères d'acceptation, logigramme fonctionnel), validé par la personne puis créé dans son projet Jira. À utiliser dès qu'une personne veut rédiger, cadrer ou créer une story, un bug ou une tâche Jira, même sans le mot « ticket » (« j'ai un besoin », « il faudrait que les clients puissent… »). Ne pas utiliser pour modifier, déplacer ou supprimer un ticket existant, ni pour gérer un sprint.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   date: "2026-11-17"
   author: "Équipe PM Tickets"
   source: "Adapté de l'agent Agent-ticket v1.2.0 (preset DeepSeek Harness)"

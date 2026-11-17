@@ -1,6 +1,6 @@
 # pm-tickets : le skill
 
-Version 0.1.0 · 17/11/2026 · adapté de l'agent Agent-ticket v1.2.0 (DeepSeek Harness)
+Version 0.1.1 · 17/11/2026 · adapté de l'agent Agent-ticket v1.2.0 (DeepSeek Harness)
 
 Transforme un besoin en ticket Jira synthétique (user story, critères d'acceptation, logigramme), validé par la personne puis créé avec le MCP Jira de son poste. Même workflow que l'agent d'origine, sous forme de skill lisible par Claude Code, Codex, OpenCode et DeepSeek Harness.
 

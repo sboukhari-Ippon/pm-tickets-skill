@@ -1,6 +1,6 @@
 {
   "name": "pm-tickets",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Transforme une idée ou un besoin en ticket Jira synthétique en français (user story, critères d'acceptation, logigramme), validé puis créé via le MCP Jira du poste. Création seule. Mémoire locale dans ~/.pm-tickets.",
   "author": { "name": "Équipe PM Tickets" },
   "keywords": ["jira", "ticket", "user-story", "product-management"]
