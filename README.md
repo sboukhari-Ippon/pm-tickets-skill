@@ -72,5 +72,7 @@ Le script copie le skill dans `~/.agents/skills/` (Codex, OpenCode), `~/.claude/
 
 ## Ce qui a été vérifié, ce qui ne l'a pas été
 
-- Vérifié : format du skill et du manifeste (outils de contrôle), script `install.sh` sur un dossier personnel de test, catalogue LiteLLM qui répond (vide).
-- Non vérifié : `install.ps1` (pas de PowerShell sur la machine de test) ; publication réelle via la page Skills ; découverte du skill dans Codex, OpenCode et DeepSeek Harness ; rendu du Markdown par le MCP Atlassian ; comportement du skill sur des cas réels (aucune évaluation menée).
+- Vérifié : format du skill et du manifeste (outils de contrôle), script `install.sh` sur un dossier personnel de test, installation dans Claude Code depuis le catalogue LiteLLM.
+- Non vérifié : `install.ps1` (pas de PowerShell sur la machine de test) ; découverte du skill dans Codex, OpenCode et DeepSeek Harness ; rendu du Markdown par le MCP Atlassian ; comportement du skill sur des cas réels (aucune évaluation menée).
+
+**Source HTTPS obligatoire dans LiteLLM.** Déclaré comme dépôt GitHub (`"source": "github"`), le plugin est cloné en SSH, port 22, souvent bloqué sur les réseaux d'entreprise. Il est donc déclaré en URL Git HTTPS : `{"source": "url", "url": "https://github.com/sboukhari-Ippon/pm-tickets-skill.git"}` (API `PUT /claude-code/plugins/pm-tickets`, le formulaire ne propose pas ce choix).
